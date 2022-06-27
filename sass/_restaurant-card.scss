@@ -1,0 +1,34 @@
+.restaurant-card {
+  width: 500px;
+  height: 180px;
+  margin-right: 20px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.restaurant-card__content {
+  padding: 18px 0 18px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.restaurant-card__title { 
+  font-size: 16px;
+  line-height: 24px;
+  color: $font_black;
+}
+.restaurant-card__options {
+  font-size: 13px;
+  line-height: 21px;
+  color: $font_grey;
+  height: 80px;
+}
+.restaurant-card__price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: $font_black;
+}

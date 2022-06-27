@@ -1,0 +1,324 @@
+.authorization-options__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.authorization-options {
+  background: var(--background_black);
+  color: var(--white);
+  border: none;
+  margin: 0 16px 0 27px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 366px;
+  text-decoration: none;
+}
+
+.card__photo {
+  height: 256px;
+}
+
+.card__restaurant {
+  line-height: 24px;
+  color: var(--font_black);
+  margin-top: 16px;
+}
+
+.card__cuisines {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--font_grey);
+  margin: 4px;
+}
+
+.card__time {
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--font_black);
+}
+
+.footer {
+  height: 120px;
+  background: var(--background_black);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 85px;
+}
+
+.footer__wrapper {
+  width: 1124px;
+  margin-top: 50px;
+}
+
+.header {
+  background: var(--white);
+  -webkit-box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+          box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+  position: absolute;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: block;
+  width: 121px;
+  height: 100%;
+  background: url(../img/header-logo.svg) no-repeat center;
+}
+
+.restaurant-card {
+  width: 500px;
+  height: 180px;
+  margin-right: 20px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+}
+
+.restaurant-card__content {
+  padding: 18px 0 18px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.restaurant-card__title {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--font_black);
+}
+
+.restaurant-card__options {
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--font_grey);
+  height: 80px;
+}
+
+.restaurant-card__price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: var(--font_black);
+}
+
+.restaurant-choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.restaurant-choose__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.restaurant-choose__city {
+  font-size: 22px;
+  line-height: 34px;
+  margin: 56px 0 16px;
+}
+
+.restaurant-choose__first,
+.restaurant-choose__second,
+.restaurant-choose__third {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.restaurant-menu {
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1124px;
+  list-style: none;
+}
+
+.restaurant-menu__nav {
+  border-bottom: 1px solid var(--border_light_grey);
+  height: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurant-menu__card {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--font_grey);
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.restaurant-menu__card:hover {
+  color: var(--font-green);
+}
+
+.restaurant-preview__background {
+  background: url(images/restaurant-preview.png) no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  height: 364px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.restaurant-preview__wrapper {
+  width: 1124px;
+}
+
+.restaurant-preview {
+  width: 389px;
+  height: 204px;
+  margin: 25px 0 0 55px;
+  background: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 38px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.restaurant-preview__title {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.restaurant-preview__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.restaurant-preview__price {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--font_grey);
+  margin: 6px;
+}
+
+.restaurant-preview__time {
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--white);
+  background: var(--background_black);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 32px;
+}
+
+.search {
+  width: 1124px;
+  height: 79px;
+  border: none;
+  border-bottom: 1px solid var(--background_lightghrey);
+  padding: 30px 0 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.search__label {
+  margin-top: 73px;
+}
+
+.search__label::before {
+  content: url("./img/Shapesearch.svg");
+  position: absolute;
+  top: 115px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

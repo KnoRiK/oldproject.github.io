@@ -1,0 +1,18 @@
+@import 'variables';
+@import '../sass/authorization-options';
+@import '../sass/card';
+@import '../sass/footer';
+@import '../sass/header';
+@import '../sass/restaurant-card';
+@import '../sass/restaurant-choose';
+@import '../sass/restaurant-menu';
+@import '../sass/restaurant-preview';
+@import '../sass/search';
+
+* {
+    box-sizing: border-box;
+    font-family: $main_font;
+}
+body {
+    margin: 0;
+}

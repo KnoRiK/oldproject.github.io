@@ -1,0 +1,10 @@
+.authorization-options__wrapper {
+  display: flex;
+  align-items: center;
+}
+.authorization-options { 
+  background: $background_black;
+  color: $white;
+  border: none;
+  margin: 0 16px 0 27px;
+}

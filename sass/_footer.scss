@@ -1,0 +1,89 @@
+.footer { 
+    font-size: 14px; 
+    width: 100%; 
+    color:white; 
+    background-color: #292929; 
+    border: 1px solid rgba(117, 117, 117, 0.2); 
+} 
+.white-logo { 
+    margin: 5%; 
+} 
+.image { 
+    height: 100%; 
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2); 
+} 
+.languageaboutussupport {
+    width: 100%; 
+    height: 300px; 
+    margin-left: 0%; 
+    margin-top: 2%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2); 
+} 
+ 
+.download { 
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2); 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin-top: 2%; 
+} 
+.download img { 
+    margin: 1px 0 20px 30px; 
+} 
+ 
+.languagesss { 
+    display: flex; 
+    flex-direction: column; 
+} 
+.last { 
+    font-size: 12px; 
+    margin-left: 0%; 
+    margin-top: 2%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    height: 70px; 
+} 
+.arrow__up img { 
+    width: 20px; 
+    height: 40px; 
+} 
+.arrow__up:active { 
+    background-color: rgb(12, 74, 0); 
+} 
+.arrow__up { 
+    position: fixed; 
+    bottom: 1%; 
+    margin-bottom: 0%; 
+    margin-left: 94%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 4px; 
+    width: 80px; 
+    height: 80px; 
+    background-color: rgb(36, 153, 0); 
+} 
+.ubereats { 
+    font-size: 20px;
+    margin-top: 50%;
+    font-weight: bold; 
+} 
+.uber { 
+    color: green; 
+} 
+.changelanguage { 
+    border-radius: 2px; 
+    border: none; 
+    color: $white; 
+    width: 130px; 
+    height: 30px; 
+    background-color: #585858; 
+}
+
+.footer__logo {
+    margin-top: 30px;
+}
